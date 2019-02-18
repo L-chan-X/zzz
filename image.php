@@ -1,0 +1,11 @@
+<?php
+session_start();
+header('content-type:png');
+$math="0123456789qazwsxedcrfvtgbyhnmujikolpQAZOPLWSXKIEUJDMCNVHRYFTGB";
+$_SESSION['math']=$math[rand(0,61)].$math[rand(0,61)].$math[rand(0,61)].$math[rand(0,61)];
+$image=imagecreate(100,40);
+imagecolorallocate($image,0,0,0);
+imagestring($image,10,15,10,$_SESSION['math'],imagecolorallocate($image,255,255,255));
+imagepng($image);
+imagedestroy($image);
+?>

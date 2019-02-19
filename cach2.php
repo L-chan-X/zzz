@@ -33,7 +33,7 @@ shuffle($_SESSION['snbox']);
   <p></p>
   <input style="font-size: 19px" type="submit" name="submit" id="submit" value="送出">
   <input style="font-size: 19px" type="reset" name="reset" id="reset" value="重置">
-  <input style="font-size: 19px" type="button" name="back" id="back" value="送出">
+  <input style="font-size: 19px" type="button" name="back" id="back" value="返回">
   <p>連成一條線即可登入</p>
 </form>
 <script src="cach2.js"></script>

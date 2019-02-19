@@ -18,6 +18,8 @@ if ( ++$_SESSION[ 'times' ] > 2 ) {
 if ( $account == "admin" ) {
 	if ( $password == "1234" ) {
 		if ( $ccach == $scach ) {
+			$_SESSION['account']=$account;
+			$_SESSION['password']=$password;
 			gourl( "第二層驗證碼", "cach2.php" );
 		} else {
 			gourl( "驗證碼錯誤", "index.php" );

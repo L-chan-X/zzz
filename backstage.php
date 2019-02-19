@@ -10,9 +10,8 @@ if(!empty($_SESSION['alert'])){
 <html>
 <head>
 <meta charset="utf-8">
-<title>無標題文件</title>
+<title>後台管理系統</title>
 </head>
-
 <body>
 	<script>
 	if ('<?php echo($alert) ?>' != "")

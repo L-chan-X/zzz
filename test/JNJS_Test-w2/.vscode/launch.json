@@ -1,0 +1,25 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Javascript",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:80", // 前端URL
+      "port": 9222,// Chrome port 後續會設定
+      "sourceMaps": true,//開啟sourceMaps對應模式
+      "userDataDir": "${workspaceRoot}/.vscode/chrome", // 專案目錄的Extension的設定檔路徑
+      "diagnosticLogging": true,// 開啟Debugger for Chrome 的log紀錄
+      "webRoot": "${workspaceRoot}/js"//實體的開發js目錄
+    },
+    {
+      "name": "PHP",
+      "type": "php",
+      "request": "launch",
+      "port": 9000
+    }
+  ]
+}

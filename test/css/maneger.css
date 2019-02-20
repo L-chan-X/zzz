@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;  
+}
+
+html, body {
+  height: 100%;
+}
+
+nav {
+  background-color: goldenrod;
+  text-align: center;
+  display: block;
+  height: 5%;;
+}
+
+nav * {
+  display: inline-block;
+  text-align: center;
+}
+
+main {
+  background-color: tan;
+  height: 95%;
+  font-size: 0;
+}
+
+aside {
+  height: 100%;
+  width: 20%;
+  background-color: coral;
+  text-align: center;
+  overflow: hidden;  
+  display: inline-block;
+}
+
+aside button {
+  border: 0;
+  display: block;
+  height: 40px;
+  margin: 20px 0px 0px 40px;
+  padding: 10px 20px;
+  background-color: goldenrod;
+  cursor: pointer;
+}
+
+th, td {
+  padding: 5px 15px;
+}
+
+input[type="text"], input[type="password"]{
+  text-align: center;
+}
+
+#logout {
+  border: none;
+  height: 100%;
+  font-size: 20px;
+  padding: 5px 10px;
+  float: right;
+  cursor: pointer;
+  background-color: darkorange;
+}
+
+#user-statue {
+  float: right;
+  height: 100%;
+  margin: 0px 10px;
+}
+
+#user-statue *{
+  display: block;
+  font-size: 15px;
+  text-align: left;  
+}
+
+#add-user, #edit-user {
+  display: none;
+  text-align: center;
+  overflow: hidden;
+}
+
+.inp-box {
+  margin: 10px 10px;  
+}
+
+#user-data {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  font-size: 16px;
+}
+
+#user-data th:nth-of-type(3),th:nth-of-type(4),th:nth-of-type(5) {
+  cursor: pointer;
+}
+
+#user-data th span {
+  margin: -2px -10px 0px 0px;
+}
+
+.zoom {
+  display: inline-block;  
+  zoom: 150%;  
+}
+
+.edit-user-btn, .del-user-btn {
+  cursor: pointer;
+}
+
+#srch-txt {
+  font-size: 19px;
+}
+
+#srch-box {
+  padding: 10px;
+}
+

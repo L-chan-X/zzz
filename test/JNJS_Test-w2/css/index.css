@@ -1,0 +1,99 @@
+/* CSS Document */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {  
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+main {
+  display: inline-block;
+  width: 50%;
+  height: 65%;
+  background-color: white;
+  border: 2px black solid;  
+  border-radius: 10px;
+  text-align: center;    
+}
+
+h1 {
+  background-color: aqua;
+  border: 2px black solid;
+  border-radius: 10px;
+  margin-top: -1px;
+  display: block;
+}
+
+label {
+  background-color: yellow;
+  border: 2px black solid;
+  border-radius: 10px;
+  padding: 3px 20px;;
+  font-size: 20px;
+}
+
+input[type=text], input[type=password]{
+  border: 2px black solid;
+  border-radius: 5px;
+  font-size: 28px;
+  padding-bottom: 2px;
+}
+
+input[type=reset], input[type=button], input[type=submit], button{
+  background-color: yellow;
+  border: 2px black solid;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 2px 20px;
+  cursor: pointer;
+}
+
+#captcha {
+  margin: 20px;
+}
+
+#captcha-box div, #captcha-img-box img{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border: 1px gray solid;  
+}
+
+#enp{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#nbox-container{
+  display: block;
+  background-color: black;
+  width: 500px;
+  height: 500px;;
+  font-size: 0px;
+  overflow: hidden;
+}
+
+.nbox-input {
+  display: none;
+}
+
+.nbox {    
+  display: inline-block;
+  width: 155px;
+  height: 163px;
+  background-color: orange;   
+  padding: 0;
+  border: none;
+  margin: 1.1%;
+}
+
+.nbox-input:checked + .nbox {      
+  background-color: red;     
+}

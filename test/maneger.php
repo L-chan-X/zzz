@@ -5,11 +5,11 @@
       $alert = $_SESSION['alert'];
       unset($_SESSION['alert']);
   }
-  if (!isset($_SESSION['user'])) {
+/*  if (!isset($_SESSION['user'])) {
       $_SESSION['alert'] = '請重新登入！';
       header('Location: index.php');
       exit;
-  }
+  }*/
   $id = $_SESSION['user']['id'];
   $name = $_SESSION['user']['name'];
  $account = $_SESSION['user']['account'];
